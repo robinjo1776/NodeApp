@@ -1,0 +1,72 @@
+@import url("https://fonts.google.com/specimen/Lobster?query=impact");
+body,
+html {
+  background: red; /* fallback color */
+  background: linear-gradient(rgb(68, 151, 72), rgb(118, 141, 121)) !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: Lobster;
+  background-image: url("images/germany.jpeg");
+  background-size: cover;
+}
+.bg-light {
+  background: linear-gradient(to right, violet, purple);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@import url("https://fonts.google.com/specimen/Lobster?query=impact");
+.navbar-brand {
+  font-family: Lobster;
+  color: darkblue;
+  text-shadow: 2px 2px black;
+}
+@import url("https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou?query=cool");
+.nav-link:hover {
+  font-family: ZCOOL QingKe HuangYou;
+  color: darkblue;
+}
+
+.btn-primary {
+  background-color: teal;
+  background: linear-gradient(to bottom, rgb(130, 238, 162), rgb(0, 128, 68));
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) outline;
+  margin-top: 80px;
+}
+.btn-primary:hover {
+  background-color: rgb(132, 147, 148);
+  background: linear-gradient(
+    to bottom,
+    rgb(113, 136, 120),
+    rgb(114, 129, 122)
+  );
+  box-shadow: 10px 10px 5px 0px rgba(252, 250, 250, 0.692) outline;
+}
+.table tr:nth-child(even) {
+  background-color: rgb(47, 153, 53);
+  background: linear-gradient(to bottom, rgb(22, 148, 60), rgb(84, 128, 107));
+}
+@import url("https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou?query=cool");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ZCOOL QingKe HuangYou;
+  color: darkblue;
+  text-shadow: 2px 2px black;
+}
+a {
+  color: darkblue;
+}
+a:hover {
+  color: crimson;
+}
+@import url("https://fonts.google.com/specimen/Lobster?query=impact");
+legend{
+  font-family: Lobster;
+  color: rgb(2, 2, 12);
+  text-shadow: 2px 2px black;
+}
